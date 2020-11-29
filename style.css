@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@200&display=swap');
+
+*{
+	font-family: texturina;
+	margin: 0;
+	padding:0;
+}
+
 .navbar{
 	background-color: #59D25D;
+	
 }
 body{
 	background-color: #F1F7F8;
