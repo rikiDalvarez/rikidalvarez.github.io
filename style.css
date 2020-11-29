@@ -1,23 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Texturina:wght@200&display=swap');
-
+:root{
+	font-size: 16px;
+	font-family: texturina;
+	--text-primary: #F1F7F8;
+	--text-secondary: #24393C;
+	--bg-primary: #AFAFAF;
+	--bg-secondary: #59D25D;
+	--bg-terciary: #006FB0;
+}
 *{
 	box-sizing: border-box;
-	font-family: texturina;
+
 	margin: 0;
 	padding:0;
 }
 
 .navbar{
-	background-color: #59D25D;
+	background-color: var(--bg-secondary);
 	
 }
 body{
 	background-color: #F1F7F8;
 }
 header{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 120px;
+	/* box-shadow: 0 0 40px 40px #006fb0; */
 	margin: 0px 10px 5px;
-	border-bottom: 5px solid #24393c;
+	border-bottom: 15px solid #24393c;
 	border-radius: 3px;
 	padding:5px;
 	display: flex;
@@ -36,4 +45,17 @@ li{
 }
 .socialmedia{
 	padding: 2px;
+}
+section {
+	margin-left: 5rem;
+	height: 4000px;
+}
+body::-webkit-scrollbar {
+	width: 0.5rem;
+}
+body::-webkit-scrollbar-track {
+	background: var(--text-secondary);
+}
+body::-webkit-scrollbar-thumb {
+	background: var(--bg-secondary);
 }
