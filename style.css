@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Texturina:wght@200&display=swap');
 
 *{
+	box-sizing: border-box;
 	font-family: texturina;
 	margin: 0;
 	padding:0;
@@ -12,4 +13,22 @@
 }
 body{
 	background-color: #F1F7F8;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+}
+.nav__links{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+li{
+	padding:10px;
+}
+.socialmedia{
+	padding: 2px;
 }
