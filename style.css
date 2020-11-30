@@ -7,6 +7,7 @@
 	--bg-primary: #AFAFAF;
 	--bg-secondary: #59D25D;
 	--bg-terciary: #006FB0;
+	color: var(--text-secondary);
 }
 *{
 	box-sizing: border-box;
@@ -17,6 +18,9 @@
 
 .navbar{
 	background-color: var(--bg-secondary);
+	width: 100%vw;
+	margin: 5px;
+	padding:10px;
 	
 }
 body{
@@ -76,6 +80,7 @@ div.logo-container{
 .logo-container:hover{
 	box-shadow: 0 0 5px 3px var(--bg-secondary) ;
 }
+
 
 
 
