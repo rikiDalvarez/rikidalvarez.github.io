@@ -48,6 +48,10 @@ li{
 	padding:10px;
 	color: var(--text-secondary);
 }
+.container__navbar__socialmedia{
+	margin:5px;
+	padding: 10px;
+}
 .socialmedia{
 	padding: 2px;
 }
