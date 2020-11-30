@@ -42,6 +42,7 @@ a{
 }
 li{
 	padding:10px;
+	color: var(--text-secondary);
 }
 .socialmedia{
 	padding: 2px;
@@ -58,4 +59,16 @@ body::-webkit-scrollbar-track {
 }
 body::-webkit-scrollbar-thumb {
 	background: var(--bg-secondary);
+}
+ul {
+	display: flex;
+	justify-content: space-around;
+	font-size: 2rem;
+	width: 400px;
+}
+div.logo{
+	background-color: var(--text-secondary);
+
+		border-radius: 50%;
+		height: auto;
 }
