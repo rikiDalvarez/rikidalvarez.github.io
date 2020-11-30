@@ -66,9 +66,16 @@ ul {
 	font-size: 2rem;
 	width: 400px;
 }
-div.logo{
+div.logo-container{
 	background-color: var(--text-secondary);
-
-		border-radius: 50%;
-		height: auto;
+	border-radius: 50%;
+	height: auto;
+	box-shadow:  0 0 5px 3px var(--text-secondary);	
+	transition: box-shadow 400ms linear;
 }
+.logo-container:hover{
+	box-shadow: 0 0 5px 3px var(--bg-secondary) ;
+}
+
+
+
