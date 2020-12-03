@@ -48,6 +48,7 @@ a{
 li{
 	padding:10px;
 	color: var(--text-secondary);
+	vertical-align: middle
 }
 .container__navbar__socialmedia{
 	margin:5px;
@@ -58,7 +59,7 @@ li{
 }
 section {
 	margin-left: 5rem;
-	height: 4000px;
+	
 }
 body::-webkit-scrollbar {
 	width: 0.5rem;
@@ -111,10 +112,39 @@ justify-content: center !important;
 .container-profile-pic{
 	margin-top: 1rem;
 }
+
+.main__wrapper{
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+	padding: 2rem;
+}
 .presentation {
-	margin-top: 40px;
-	width: 460px;
+	margin: 1rem;
+	padding: 1rem;
 }
 
+.card_h1_presentation h1	{
+margin-top: 1rem;
+margin-right: 1rem;
+margin-bottom: 1rem;
+padding: 1rem;
+text-align: center;
+}
+.card_h1_presentation h3	{
+	
+	}
+footer {
+	
+	color: var(--text-secondary);
+	text-decoration: none;
+	text-align: center;
+	margin:0;
+	padding: 0;
+
+}
+footer a {
+	color: var(--text-secondary)
+}
 
 
