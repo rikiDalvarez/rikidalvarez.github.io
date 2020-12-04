@@ -43,6 +43,13 @@ header{
 .nav__links{
 	list-style: none;
 }
+.nav__links li{
+	color: var(--text-secondary);
+	transition: color 200ms linear;
+}
+.nav__links li:hover{
+	color: var(--text-primary)
+}
 a{
 	text-decoration: none;
 }
@@ -186,3 +193,6 @@ footer a {
 .description_latestProject a{
 	color: var(--bg-terciary)
 }
+
+
+
