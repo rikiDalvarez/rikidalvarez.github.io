@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Texturina:wght@200&display=swap");
+:root {
+  font-size: 16px;
+  font-family: texturina, sans-serif;
+  --text-primary: #f1f7f8;
+  --text-secondary: #24393c;
+  --bg-primary: #afafaf;
+  --bg-secondary: #59d25d;
+  --bg-terciary: #006fb0;
+  color: var(--text-secondary);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f1f7f8;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  width: 20%;
+}
+
+img {
+  width: 600px;
+}
+
+.logo {
+  padding: 10px;
+  font-size: 40px;
+}
+
+.main-info-section {
+  background-color: var(--text-primary);
+  display: flex;
+}
+
+.profile-img {
+  width: 30%;
+  background-color: var(--text-primary);
+}
+
+.header-container {
+  background-color: var(--text-secondary);
+  color: var(--text-primary);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-container ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.text {
+  background-color: var(--bg-secondary);
+}
+
+.text h1 {
+  padding: 20px;
+}

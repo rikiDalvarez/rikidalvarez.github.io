@@ -1,0 +1,23 @@
++Heropage
+	1-navbar
+		-logo- link to home page
+		-Dev works - link to dev.html
+		-Art works - link to art.html
+
+	2-title, software engineer
+
+	3-img of myself 
+	(side to side with my title)
+
+	4-overview of myself as a person
+
+	5-horizontal scroll with dev works.
+		-images and link to the work(github)
+
+	6-horizontal scroll with art works.
+		-Images and link to the work(behance)
+
+	7-footer with contact.
+		-email
+		-phone number
+		-city
