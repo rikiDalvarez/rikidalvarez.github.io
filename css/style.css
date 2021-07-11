@@ -47,6 +47,9 @@ img {
 .main-info-section {
   background-color: var(--text-primary);
   display: flex;
+  border-bottom: 10px solid;
+  border-image: linear-gradient(to right, #24393c, #59d25d);
+  border-image-slice: 1;
 }
 
 .profile-img {
@@ -72,5 +75,71 @@ img {
 }
 
 .text h1 {
-  padding: 20px;
+  padding: 20px 20px 00px 20px;
 }
+
+.text p {
+  padding: 0px 20px;
+}
+
+.text article {
+  padding: 50px 40px;
+  width: 600px;
+  margin: auto;
+  font-size: 1.2rem;
+}
+.dev-work-horizontal {
+  display: flex;
+  width: 100%;
+  border-bottom: 10px solid;
+  border-image: linear-gradient(to right, #24393c, #59d25d);
+  border-image-slice: 1;
+}
+
+.dev-work-horizontal li {
+  width: 100vw;
+}
+
+.dev-work-horizontal li img {
+  width: 100%;
+}
+
+.art-work-horizontal {
+  display: flex;
+  width: 100%;
+  border-bottom: 10px solid;
+  border-image: linear-gradient(to right, #24393c, #afafaf);
+  border-image-slice: 1;
+}
+
+.art-work-horizontal li {
+  width: 100vw;
+}
+
+.art-work-horizontal li img {
+  width: 100%;
+}
+
+.sportszilla {
+  align-self: center;
+}
+
+.feedbackr {
+  align-self: center;
+}
+
+/* .buttons-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+} */
+
+/* .buttons-about button {
+  background-color: transparent;
+  padding: 5px;
+  width: 100px;
+  font-family: texturina, sans-serif;
+  border: none;
+  font-size: 16px;
+  color: var(--text-secondary);
+} */
