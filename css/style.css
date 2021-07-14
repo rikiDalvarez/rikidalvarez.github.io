@@ -114,6 +114,9 @@ img {
 
 .art-work-horizontal li {
   width: 100vw;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
 }
 
 .art-work-horizontal li img {
