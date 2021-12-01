@@ -27,21 +27,57 @@ a {
   color: var(--text-primary);
 }
 
+ul {
+  flex-basis: 20%;
+}
+
 li {
   list-style: none;
 }
 
-nav {
-  width: 20%;
-}
+/* nav {
+  flex-basis: 20%;
+} */
 
 img {
-  width: 600px;
+  width: 100%;
+}
+/* iphone */
+@media (max-width: 539px) {
+  .main-info-section .text h1 {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-info-section {
+    flex-direction: column;
+  }
+  .main-info-section .text {
+    background-color: var(--text-primary);
+  }
+  .text {
+    flex-basis: 100%;
+    order: 2;
+  }
+
+  .profile-img {
+    display: none;
+  }
 }
 
 .logo {
   padding: 10px;
   font-size: 40px;
+}
+
+.header-container {
+  background-color: var(--text-secondary);
+  color: var(--text-primary);
+  display: flex;
+  justify-content: space-evenly;
+  gap: 4%;
+  /* flex-basis: 100%; */
 }
 
 .main-info-section {
@@ -50,18 +86,14 @@ img {
   border-bottom: 10px solid;
   border-image: linear-gradient(to right, #24393c, #59d25d);
   border-image-slice: 1;
+  gap: 4%;
+  flex-wrap: wrap;
+  /* max-width: 2000px; */
 }
 
 .profile-img {
-  width: 30%;
   background-color: var(--text-primary);
-}
-
-.header-container {
-  background-color: var(--text-secondary);
-  color: var(--text-primary);
-  display: flex;
-  justify-content: space-evenly;
+  /* max-width: 800px; */
 }
 
 .header-container ul {
@@ -71,22 +103,26 @@ img {
 }
 
 .text {
+  /* display: flex; */
   background-color: var(--bg-secondary);
+  flex-basis: 48%;
+  /* max-width: 1000px; */
 }
 
 .text h1 {
-  padding: 20px 20px 00px 20px;
+  padding: 80px 20px 00px 120px;
 }
 
 .text p {
-  padding: 0px 20px;
+  padding: 0px 20px 0px 120px;
 }
 
 .text article {
   padding: 50px 40px;
-  width: 600px;
+  /* max-width: 1000px; */
   margin: auto;
   font-size: 1.2rem;
+  /* flex-basis: 48%; */
 }
 .dev-work-horizontal {
   display: flex;
@@ -108,7 +144,7 @@ img {
   display: flex;
   width: 100%;
   border-bottom: 10px solid;
-  border-image: linear-gradient(to right, #24393c, #afafaf);
+  border-image: linear-gradient(to right, #24393c, #59d25d);
   border-image-slice: 1;
 }
 
@@ -129,6 +165,24 @@ img {
 
 .feedbackr {
   align-self: center;
+}
+
+.profile-img {
+  /* vertical-align: middle; */
+  flex-basis: 48%;
+  /* max-height: 600px; */
+  /* max-width: 1000px; */
+}
+
+.profile-img img {
+  max-width: 794px;
+  max-height: 600px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .proba_mosaic {
